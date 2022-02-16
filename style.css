@@ -1,3 +1,43 @@
-body {
-
+h2 {
+  color: blue;
+  font-size: 65px;
 }
+
+body {
+  background-color: lightgreen;
+}
+
+img {
+  border: dotted 8px white;
+}
+
+img:hover {
+  border: dashed 8px black;
+}
+
+h1:hover {
+  
+}
+
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color:  white;
+  top: 0;
+  width: 100%
+  left: 0;
+}
+li {
+  display: incline;
+  padding: 10px;
+  float: right;
+}
+li:hover{
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
